@@ -1,15 +1,15 @@
 class Streeem < Formula
   desc "Rust TUI that hosts multiple interactive terminals in a staggered grid"
   homepage "https://github.com/3moeslam/streeem"
-  version "0.2.7"
+  version "0.2.10"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/3moeslam/streeem/releases/download/v0.2.7/streeem-aarch64-apple-darwin.tar.xz"
-      sha256 "8567a6229e1130a87d88d5a3b3f2b3994f1f6853edaf83ce1f368b31b2ccd928"
+      url "https://github.com/3moeslam/streeem/releases/download/v0.2.10/streeem-aarch64-apple-darwin.tar.xz"
+      sha256 "e0d177cb6d2c7c1ed4b917a8ea41e0ad3d47b567eb2aafa08dca19893f315574"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/3moeslam/streeem/releases/download/v0.2.7/streeem-x86_64-apple-darwin.tar.xz"
-      sha256 "a28bc58b738c4ffb4b7b604406f6d29f4c4fe5d569f918a91f17395059ebb772"
+      url "https://github.com/3moeslam/streeem/releases/download/v0.2.10/streeem-x86_64-apple-darwin.tar.xz"
+      sha256 "11270a1a9aa4dcb17108b1a6d447b2791cc576a9753f8be326b50519589bd7c2"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
